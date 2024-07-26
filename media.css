@@ -1,0 +1,558 @@
+@media screen and (max-width: 426px) {
+  .ouraim {
+    font-size: 30px;
+  }
+  body {
+    margin: 0;
+  }
+  h1 {
+    margin: 0;
+  }
+  h3 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+  }
+
+  .maincard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  button {
+    font-size: 30px;
+  }
+  .btnpr {
+    font-size: 30px;
+  }
+  .btnpr svg {
+    width: 30px;
+    height: 30px;
+  }
+  .card img {
+    width: 300px;
+    height: 300px;
+  }
+  .btn-sv {
+    margin-left: 10px;
+  }
+
+  .btn-sv svg {
+    width: 50px;
+    height: 40px;
+  }
+
+  .promaincard {
+    align-items: center;
+    gap: 30px;
+  }
+  .cardpro {
+    /* width: 100%; */
+    width: 480px;
+    height: max-content;
+  }
+
+  .cardpro h5 {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+  }
+  .userdel {
+    /* margin: 30px auto; */
+    padding: 30px 0px;
+  }
+  .userdel h6 {
+    font-size: 30px;
+  }
+  .centercardpro {
+    width: 480px;
+    height: max-content;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .centercardpro h5 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .userdel p {
+    font-size: 25px;
+    text-wrap: nowrap;
+  }
+  .card p {
+    font-size: 40px;
+  }
+  .mainuper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftuper {
+    margin-bottom: 100px;
+  }
+  .imggirl {
+    right: -5px;
+  }
+
+  .cardphoto {
+    left: 10px;
+    width: max-content;
+    padding: 15px;
+  }
+
+  .cardphoto span {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .perfumeproduct {
+    flex-direction: column;
+    /* background: #007bff; */
+    align-items: center;
+    margin-top: 80px;
+  }
+
+  .medi {
+    margin: 40px auto;
+    flex-direction: column;
+    gap: 30px;
+
+    text-align: center;
+  }
+
+  .trydev {
+    /* width: 1496px; */
+    flex-direction: column;
+    margin-top: 100px;
+  }
+
+  .promaincard {
+    flex-direction: column;
+  }
+
+  /* .gridcaro {
+      grid-auto-flow: column;
+    } */
+
+  .poli {
+    flex-direction: column;
+    margin: auto auto;
+    /* background: #3cda5f; */
+  }
+  .poli h1 {
+    margin: 40px auto 20px auto;
+    font-size: 40px;
+  }
+  .poli button {
+    font-size: 30px;
+    padding: 20px 40px;
+    margin-bottom: 30px;
+  }
+  .politext {
+    padding: 80px auto;
+  }
+  .footermain {
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 100px;
+  }
+  .footerright {
+    margin: auto auto;
+  }
+  .footerright h3 {
+    font-size: 60px;
+  }
+
+  .footerright p {
+    margin-bottom: 60px;
+    font-size: 40px;
+    margin-bottom: 40px;
+    line-height: 50px;
+  }
+  .footerlinks p {
+    font-size: 50px;
+    margin: 0 0 40px 0;
+  }
+  .footerlinks li {
+    font-size: 40px;
+    margin: 0 0 20px 0;
+  }
+  .my-dive-2 {
+    display: hidden;
+  }
+  .navitem {
+    display: none;
+  }
+  .discount {
+    width: 500px;
+    font-size: 50px;
+    padding: 20px 40px 20px 20px;
+  }
+  .promo {
+    width: 500px;
+  }
+  .nav {
+    justify-content: space-between;
+    gap: 50px;
+    /* margin-top: 50px; */
+    padding: 30px 0;
+  }
+  .navlogo {
+    font-size: 65px;
+    padding-left: 10px;
+  }
+  .navlogo span {
+    font-size: 65px;
+  }
+
+  .my-dive-3 button {
+    padding: 20px 40px;
+    font-size: 30px;
+  }
+  .my-dive-3 button.shopnow :hover {
+    border: 1px dotted rgb(151, 20, 195);
+    color: blue;
+  }
+
+  .mytime {
+    font-size: 50px;
+  }
+
+  .timecard p {
+    font-size: 25px;
+  }
+
+  .timecard span {
+    font-size: 15px;
+  }
+  .timecard {
+    padding: 20px 30px;
+  }
+
+  .pertext h3 {
+    margin-bottom: 0 0;
+    font-size: 90px;
+
+    margin-bottom: 10px;
+  }
+
+  .sale {
+    font-size: 35px;
+    padding: 15px 15px;
+  }
+
+  .pertext h3 {
+    font-family: Outfit;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .pertext p {
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .cardperfume {
+    /* width: 607.75px; */
+    border-radius: 10px 10px;
+    border: 1px solid #eaeaea;
+    /* position: relative; */
+
+    padding-right: 300px;
+  }
+  .cardperfume img {
+    padding: 0;
+  }
+
+  /* .my-dive-3 button{
+      display: flex;
+    } */
+
+  .cardmedi img {
+    transform: scaleX(-1);
+    width: 800.75px;
+    border-radius: 10px 10px;
+    height: 400px;
+  }
+
+  .medipara {
+    left: 290px;
+    top: 50px;
+    font-size: 35px;
+
+    padding: 2px 12px;
+  }
+
+  /* .medipara {
+     
+      font-size: 35px;
+      top:180;
+      left:290px;
+      top:70px;
+      padding: 2px 12px;
+    } */
+  .cardmedi h2 {
+    top: 140px;
+    left: 290px;
+    font-size: 40px;
+  }
+  .btnmedi {
+    left: 290px;
+    top: 295px;
+    font-size: 30px;
+    padding: 10px 20px;
+  }
+
+  .hoverunderline h4 {
+    font-size: 60px;
+    /* margin-top: 170px; */
+  }
+
+  .footerani img {
+    width: 600px;
+    height: 500px;
+  }
+  .footerani {
+    /* padding-left: 140px; */
+    margin: auto auto;
+  }
+
+  .head1 {
+    gap: 30px;
+  }
+  .input-cat input {
+    max-width: 700px;
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* background-color: blue; */
+  }
+
+  .headcat {
+    font-size: 30px;
+    border-radius: 0px;
+  }
+  .svgham svg {
+    width: 40px;
+    height: 40px;
+    padding: px2px;
+  }
+  .maincard {
+    gap: 50px;
+  }
+  .card p {
+    margin-top: 20px;
+  }
+
+  .headcat p {
+    display: none;
+  }
+  .headcat {
+    padding: 0;
+  }
+
+  .mysvg1 {
+    display: block;
+    margin: 0px 3px 0px 0px;
+  }
+
+  .svgarrow1 {
+    top: 80px;
+    right: 150px;
+    transform: rotate(90deg);
+  }
+  .svgarrow2 {
+    transform: rotate(90deg);
+    right: 150px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .my-dive-3 button {
+    display: none;
+  }
+  .hoverunderline {
+    font-size: 30px;
+  }
+
+  .politext h1 {
+    margin-bottom: 20px;
+  }
+
+  .maincard {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card p {
+    font-size: 25px;
+  }
+
+  .navlogo {
+    font-size: 50px;
+  }
+  .navlogo span {
+    font-size: 50px;
+  }
+  .nav {
+    padding: 20px 0px;
+  }
+
+  .productsvg {
+    width: 60px;
+    height: 60px;
+
+    top: 15px;
+    left: 760px;
+  }
+  .headcat {
+    padding: 2px 10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .trydev h3 {
+    margin: 50px auto;
+  }
+  .mymaindev .my-dive-3 {
+    display: none;
+  }
+  .medihead h3 {
+    margin: 100px auto 50px auto;
+  }
+
+  .mytime {
+    font-size: 50px;
+  }
+
+  .input-cat button {
+    padding: 0px 20px;
+  }
+  .discount {
+    margin-bottom: 20px;
+  }
+  .products {
+    max-width: max-content;
+  }
+  .time {
+    max-width: max-content;
+    margin: 200px auto 0 auto;
+  }
+  .mymain {
+    width: 100%;
+    /* background-color: blueviolet; */
+  }
+
+  .perfumeproduct {
+    max-width: min-content;
+  }
+
+  .navlogo {
+    font-size: 50px;
+  }
+  .navlogo span {
+    font-size: 50px;
+  }
+  .mainuper {
+    margin-bottom: 200px;
+  }
+  .mysvg1 {
+    display: block;
+    /* margin: 0px 30px 0px 0px; */
+  }
+
+  .productsvg {
+    width: 60px;
+    height: 60px;
+
+    top: 15px;
+    left: 760px;
+  }
+  .products h4 {
+    margin-top: 100px;
+  }
+  .nav {
+    justify-content: center;
+    /* padding: 20px 20px; */
+    /* max-width:700px; */
+    /* gap: 100px; */
+    padding: 30px 0px;
+    gap: 350px;
+  }
+  .hoverunderline {
+    font-size: 40px;
+    /* margin-top: 100px; */
+  }
+  /* .mainuper{
+      max-width: min-content;
+    } */
+  /* .products{
+      max-width: min-content;
+    } */
+  /* .mymaindev{
+      margin: auto auto;
+    } */
+  .svgarrow1 {
+    top: 80px;
+    right: 150px;
+    transform: rotate(90deg);
+  }
+  .svgarrow2 {
+    transform: rotate(90deg);
+    right: 150px;
+  }
+  .cardphoto p {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .cardphoto {
+    padding: 15px;
+  }
+
+  .cardphoto span {
+    font-size: 30px;
+  }
+  .card p {
+    margin-top: 20px;
+  }
+  .maincard {
+    gap: 50px;
+  }
+  .master-div {
+    max-width: max-content;
+  }
+
+  /* .cardmedi img{
+    width: 100%;
+  } */
+  /* .cardperfume{
+    width: 100%;
+    padding: 0; */
+
+  .headcat {
+    padding: 10px;
+  }
+
+  .grid1 {
+    padding-left: 80px;
+  }
+  .headcat p {
+    display: none;
+  }
+  .svgham svg {
+    width: 40px;
+    height: 40px;
+    padding: 2px 2px;
+  }
+  .input-cat input {
+    padding: 20px auto;
+    max-width: 476px;
+  }
+  .card p {
+    font-size: 35px;
+  }
+}
