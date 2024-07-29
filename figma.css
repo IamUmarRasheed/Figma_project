@@ -39,6 +39,7 @@ h3 {
   align-items: center;
   padding: 4px 0px;
 }
+
 .navlogo {
   font-family: Outfit;
   font-size: 28px;
@@ -224,6 +225,7 @@ header {
   justify-content: space-around;
   margin-bottom: 100px;
   margin-left: 40px;
+  margin-top: 30px
 
   /* background-color: red; */
 }
@@ -305,6 +307,7 @@ button span:hover {
 
 h1.promo {
   max-width: 490px;
+ 
   font-family: Outfit;
   font-size: 72px;
   font-weight: 500;
@@ -341,7 +344,7 @@ h1.promo {
 
 .imggirl {
   position: absolute;
-  top: -110px;
+  top: -50px;
   right: 90px;
 }
 
@@ -408,9 +411,14 @@ h1.promo {
 .productsvg {
   position: absolute;
   top: 2px;
-  width: 27.12px;
-  height: 39.11;
-  right: 632px;
+  width: 60px;
+    height: 60px;
+  right: 565px;
+}
+
+.my-dive-3 button.shopnow :hover {
+  border: 1px dotted rgb(151, 20, 195);
+  color: blue;
 }
 
 .hoverunderline {
@@ -503,16 +511,17 @@ h1.promo {
   position: relative;
 }
 
+.cardperfume img{
+border-radius: 10px 0px 0px 10px;
+}
+
 .perimg img {
   /* border-radius: 10px 0 0 10px; */
   padding: 0;
 }
 
-.perfumeimg {
-  /* position: relative; */
-  padding: 0px;
-  border-radius: 10px 0 0 10px;
-}
+
+
 
 .pertext h3 {
   font-family: Outfit;
@@ -924,6 +933,8 @@ footer {
   line-height: 30.24px;
   margin-bottom: 5px;
 }
-img {
-  padding-top: 50px;
-}
+
+
+
+
+
